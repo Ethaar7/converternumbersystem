@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">converter number system</string>
+    <string name="converter">converter</string>
+    <string name="enternumber">Enter Number</string>
+    <string name="to">to</string>
+    <string name="result">Result</string>
+    <string-array name="converter_array">
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+        <item>Decimal</item>
+    </string-array>
+</resources>

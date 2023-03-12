@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_text">18dp</dimen>
+    <dimen name="spaceing_large">42dp</dimen>
+    <dimen name="textsizelarge">28dp</dimen>
+</resources>
