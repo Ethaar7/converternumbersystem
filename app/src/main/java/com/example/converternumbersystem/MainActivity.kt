@@ -30,11 +30,10 @@ class MainActivity : AppCompatActivity() {
                 id: Long
             ) {
                 fromBase = base[parent.getItemAtPosition(position).toString()]!!
-                if (fromBase==16){
-                    textNumber.inputType=InputType.TYPE_CLASS_TEXT
-                }
-                else{
-                    textNumber.inputType=InputType.TYPE_CLASS_NUMBER
+                if (fromBase == 16) {
+                    textNumber.inputType = InputType.TYPE_CLASS_TEXT
+                } else {
+                    textNumber.inputType = InputType.TYPE_CLASS_NUMBER
                 }
             }
 
@@ -71,16 +70,16 @@ class MainActivity : AppCompatActivity() {
     private fun updateToShow() {
         var x = textNumber.text.toString()
         var toShow = x.toIntOrNull(fromBase)
-        if (!x.isEmpty() && toShow != null ) {
+        if (!x.isEmpty() && toShow != null) {
             var toShow2 = toShow.toString(toBase)
             result.text = toShow2
-        }
-        else{
+        } else {
             val error = "Error Entry"
-            Toast.makeText(this,error,Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, error, Toast.LENGTH_SHORT).show()
         }
     }
-    public fun converterbutton(v:View){
+
+    public fun converterbutton(v: View) {
         updateToShow()
     }
 }

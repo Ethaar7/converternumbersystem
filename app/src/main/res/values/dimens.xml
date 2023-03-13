@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="size_text">18dp</dimen>
+    <dimen name="size_text">28dp</dimen>
     <dimen name="spaceing_large">42dp</dimen>
     <dimen name="textsizelarge">28dp</dimen>
+    <dimen name="space_medium">16dp</dimen>
+    <dimen name="space_large">42dp</dimen>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="space_very_small">8dp</dimen>
+    <dimen name="top">112dp</dimen>
+    <dimen name="top_button">68dp</dimen>
 </resources>
